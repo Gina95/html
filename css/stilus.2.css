@@ -1,0 +1,125 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+body{
+    background-color: aqua;
+}
+
+.container{
+    max-width: 900px;
+    background-color: aquamarine;
+    margin:0 auto;
+}
+
+.header{
+    background: url('../img/header.png') no-repeat white;
+    background-size: contain;
+    background-position: right center;
+    height: 100px;
+    padding: 30px 0 0 50px;
+}
+
+.navigation{
+   
+    width: 20%;
+    float: left;
+}
+
+.navigation ul {
+    list-style-type: none;
+    
+}
+.tartalom::after.content::after, ul::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
+.navigation ul li{
+    
+    
+    text-align: center;
+}
+
+.navigation ul li:first-child{
+    padding: top 20px;
+}
+a{
+    padding: 10px 10px 20px 10px; 
+    display: block;
+    font-size: 0.8rem;
+    text-decoration: none;
+    color: purple;
+}
+
+a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+.content{
+    background-color: antiquewhite;
+    float: left;
+    max-width: 80%;
+    border-left: 1px solid black;
+
+}
+
+.hasab {
+    padding: 10px;
+    float: left;
+    max-width: 50%;
+}
+
+h2 {
+    background-color:rgb(82, 77, 77);
+    color: white;
+    padding: 20px 0 40px 10px;
+    text-transform: uppercase;
+    margin: 0 0 20px 0;
+}
+.hasab p{
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.footer{
+    padding-top: 50px;
+    padding-bottom: 25px;
+    text-align: center;
+    font-size: 0.6rem;
+    background: orange;
+}
+
+.tartalom{
+     background-color: aliceblue;   
+  }
+
+img{
+    max-width: 50%;
+    float:left;
+}
+
+.kep1{
+    float: left;
+    margin: 0 5px 0 0;
+}
+
+.kep2{
+    float: right;
+    margin: 0 0 0 5px;
+}
+
